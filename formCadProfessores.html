@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de professores</title>
+        <meta charset="UTF-8">
+        <style>*{margin: 0px;padding: 0px}
+            body{font-family: arial}
+            #mn{width: 100%;height:60px;background:#f1f1f1}
+            .boxinp{width: 280px; height: 20px}
+            #but{width: 284px; heigth: 90px}
+        </style>
+    </head>
+    <body>
+        <div id="mn"></div>
+        <div>
+            <h3>Tweets</h3>
+            <form align="center" action="professores.php" method="post">
+                <table align="center">
+                    <tr>
+                        <td>Cadastro de professores</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input class="boxinp" type="text" name="txtnome" placeholder="Digite seu nome" required="">
+                        </td>    
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input class="boxinp" type="text" name="txtsal" placeholder="Digite seu salario" required="">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input class="boxinp" type="text" name="txtgrauinst" placeholder="Digite seu grau de instituição" required=""> 
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input class="boxinp" type="text" name="txtlogin" placeholder="Digite seu login" title="Você inventa">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input class="boxinp" type="password" name="txtsenha" placeholder="Digite sua senha">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input id="but" type="submit" value="Salvar">
+                        </td>
+                    </tr>
+                    
+                </table>   
+            </form>    
+        </div>
+    </body>
+</html>
